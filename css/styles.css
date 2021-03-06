@@ -1,0 +1,28 @@
+.navbar {
+    background-color: black;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+}
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar-nav {
+
+}
+
+header {
+    margin: 20px;
+    border: solid 1px #f2f0eb;
+}
+
