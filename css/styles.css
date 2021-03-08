@@ -2,26 +2,28 @@
     background-color: black;
 }
 
+.navbar-brand {
+    padding: 10px;
+}
+
 h2 {
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: underline;
+    font-family: 'Oswald', sans-serif;    
+    padding-bottom: 5px;
+    position: relative;
 }
 
 .carousel-caption {
     position: relative;
     left: 0;
     top: 0;
+    color: black;
 }
 
 .navbar-collapse {
     text-align: center;
 }
 
-.navbar-nav {
-
-}
-
-header {
+#navBorder {
     margin: 20px;
     border: solid 1px #f2f0eb;
 }
@@ -43,9 +45,98 @@ header {
     margin-top: 20px;
 }
 
+#section-1 {
+    background-image: url(../img/about_bg.jpg);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+
 #section-2 {
     background-image: url(../img/menutile2.png);
     background-repeat: repeat;
-    height: 500px;
+    height: auto;
+    color: #f2f0eb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#menuPics {
+    margin: auto;
+    margin-top: 15px;
+    display: block;
+    height: 250px;
+    border: #f2f0eb solid 4px;
+    border-radius: 10px;
+}
+
+#menuTags {
+    color: #f2f0eb;
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.bi-chevron-compact-right {
+    color: black;
+    height: 1000px;
+}
+
+.bi-chevron-compact-left {
+    color: black;
+    height: 1000px;
+}
+
+.img-thumbnail {
     color: #f2f0eb;
 }
+
+#aboutImg {
+    border: #f2f0eb solid 5px;
+    border-radius: 15px;
+}
+
+#about1:after {
+    content: "";
+    height: 2px;
+    width: 6%;
+    background-color: #000000;
+    position: absolute;
+    bottom: -.05em;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  #menu1:after {
+    content: "";
+    height: 2px;
+    width: 6%;
+    background-color: #f2f0eb;
+    position: absolute;
+    bottom: -.05em;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  #reservations1:after {
+    content: "";
+    height: 2px;
+    width: 12%;
+    background-color: #000000;
+    position: absolute;
+    bottom: -.05em;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  #contact1:after {
+    content: "";
+    height: 2px;
+    width: 10%;
+    background-color: #000000;
+    position: absolute;
+    bottom: -.05em;
+    left: 50%;
+    transform: translate(-50%);
