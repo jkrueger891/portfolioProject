@@ -1,3 +1,9 @@
+@media (max-width: 767px) {
+    .border-end {
+        border: 0px solid !important;
+    }
+}
+
 .navbar {
     background-color: black;
 }
@@ -33,12 +39,18 @@ h2 {
 
 .site-footer {
     position:relative;
-    bottom:0;
+    bottom:auto;
     width:100%;
     height:120px;
     background:#000000;
     border-top: solid 3px #f2f0eb;
     background-position:bottom;
+    color: #f2f0eb;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    padding-top: 10px;
 }
 
 .structure {
@@ -166,7 +178,7 @@ h2 {
 }
 
 .reviewImgs {
-    padding: 15px;
+    padding: 5px;
 }
 
 .submitButton:hover {
@@ -187,4 +199,57 @@ h2 {
     border-top: #f2f0eb solid 10px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+#section-5 {
+    background-color: #000000;
+    border-top: #f2f0eb solid 3px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #f2f0eb;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+#contact svg {
+    display: inline-flexbox;
+    vertical-align: baseline;
+    margin-right: 10px;
+}
+
+#address svg {
+    display: inline-flexbox;
+    vertical-align: baseline;
+    margin-right: 10px;
+}
+
+#social svg {
+    margin-right: 10px;
+}
+
+#stayInTouch svg {
+    display: inline-flexbox;
+    vertical-align: baseline;
+    margin-right: 10px;
+}
+
+#contact {
+    font-weight: lighter;
+}
+
+#address {
+    font-weight: lighter;
+}
+
+#stayInTouch {
+    font-weight: lighter;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #abcfe6;
 }
