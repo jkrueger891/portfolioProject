@@ -177,12 +177,23 @@ h2 {
     right: 16px;  
 }
 
-.reviewImgs {
-    padding: 5px;
-}
-
 .submitButton:hover {
     background-color: #abcfe6;
+}
+
+.submitButton2 {
+    background-color: #543019;
+    color: #f2f0eb;
+    position: relative; 
+    float: inline-end;
+}
+
+.submitButton2:hover {
+    background-color: #abcfe6;
+}
+
+.reviewImgs {
+    padding: 5px;
 }
 
 #menuTags:hover {
@@ -199,6 +210,8 @@ h2 {
     border-top: #f2f0eb solid 10px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 30px;
 }
 
 #section-5 {
@@ -252,4 +265,8 @@ a {
 a:hover {
     text-decoration: none;
     color: #abcfe6;
+}
+
+strong {
+    font-size: 20px;
 }
