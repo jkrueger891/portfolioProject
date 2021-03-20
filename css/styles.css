@@ -287,3 +287,31 @@ a:hover {
 strong {
     font-size: 20px;
 }
+
+#notification-button {
+    background-color: #543019;
+    color: #f2f0eb;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#notification-button:hover {
+    background-color: #abcfe6;
+}
+
+.alert-heading {
+    font-family: 'Oswald', sans-serif;
+    color: #543019;
+}
+
+#alert-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #543019;
+}
+
+#button-div {
+    text-align: center;
+}
